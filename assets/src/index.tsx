@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 
 let App = React.lazy(() => import('./App'))
 let TodosIndexPage = React.lazy(() => import('./todos/pages/index.page'))
+let TodosDetailPage = React.lazy(() => import('./todos/pages/detail.page'))
 
 let declarePage = (id: string, Content: LazyExoticComponent<any>) => {
     try {
@@ -14,3 +15,4 @@ let declarePage = (id: string, Content: LazyExoticComponent<any>) => {
 
 declarePage('app', App)
 declarePage('todos-index', TodosIndexPage)
+declarePage('todo-detail', TodosDetailPage)

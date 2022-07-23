@@ -1,5 +1,8 @@
 Demo for this article - https://dev.to/kozlovzxc/django-templates-with-react-4hko
 
+### Links 
+github: `https://github.com/kozlovzxc/djangoReactTemplates`
+tut: `https://dev.to/kozlovzxc/django-templates-with-react-4hko`
 ## Installation
 
 Order of installation can be any.
@@ -41,3 +44,11 @@ Second terminal tab:
 ```shell
 pipenv run python manage.py runserver
 ```
+
+### changes
+- converted pipenv to virtualenv
+- `pipenv lock -r > requirenments.txt`
+- `virtualenv venv`
+- `source venv/bin/activate`
+- `pip install -r requirements.txt`
+- `python manage.py runserver`

@@ -11,7 +11,7 @@ const TodosIndexPage = memo(() => {
     let todos = pageContext?.todos
 
     return <>
-        <h1>React todos page</h1>
+        <h1>React detail todo page</h1>
         <ul>
             {todos?.map(todo => <li key={todo.id}>{todo.title}</li>)}
         </ul>

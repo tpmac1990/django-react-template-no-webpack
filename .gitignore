@@ -4,3 +4,5 @@ djangoReactTemplates.iml
 
 # DB files
 db.sqlite3
+
+*.pyc
